@@ -1,0 +1,15 @@
+.mainbtn {
+  background-color: $colsecondary !important;
+  border-radius: 5rem;
+  padding: 0.3rem 1rem;
+  width: fit-content;
+  font-weight: 500;
+  &:hover {
+    background-color: $colsecondary;
+    cursor: pointer;
+  }
+  &:active {
+    text-decoration: none;
+    text-shadow: none !important;
+  }
+}

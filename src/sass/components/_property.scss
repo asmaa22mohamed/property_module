@@ -1,0 +1,27 @@
+.postCard {
+  width: 25%;
+  margin: auto;
+  &__main {
+    margin: 1rem 0rem;
+  }
+  &__image {
+    height: 20rem;
+  }
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  i {
+    margin: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .fa-thumbs-up {
+    color: dodgerblue;
+  }
+  .fa-comment {
+    color: $colmain;
+  }
+  .fa-times {
+    color: darkred;
+  }
+}
